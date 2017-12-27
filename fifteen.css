@@ -1,0 +1,47 @@
+/*
+    Assignment 4: Fifteen Puzzle
+    Name: Nuo Chen
+    Section: AF
+    Date: 04/25/2017
+    This CSS file is the stylesheet for the fifteen puzzle page, Fifteen puzzle is 
+    a classic game consisting of a 4x4 grid of numbered squares with one square missing. 
+    The objective of the game is to arrange the tiles into numerical order by repeatedly 
+    sliding a square that neighbors the missing square into its empty space
+
+*/
+
+body {
+    font-family: cursive;
+    font-size: 14pt;
+    text-align: center;
+    
+}
+
+#puzzlearea {
+    position: relative;
+    width: 400px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.puzzletile {
+    font-size: 40pt;
+    position: absolute;
+    width: 90px;
+    height: 90px;
+    border: solid 5px black;
+    background-image: url("background.jpg");
+}
+
+.movabletile {
+    border-color: red;
+    color: red;
+    cursor: pointer;
+}
+
+
+#shufflebutton {
+    font-family: inherit;
+    font-size: inherit;
+}
